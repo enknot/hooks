@@ -176,3 +176,9 @@ function ls($dir) {
         return $ret;
     }
 }
+
+function badrequest($msg,$data) {
+    logger('bad_request', $data);
+    http_response_code(404);
+    die($msg);
+}
