@@ -1,1 +1,1 @@
-<? echo 'sup';
+<? echo 'chump';
